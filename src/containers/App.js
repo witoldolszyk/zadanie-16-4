@@ -13,7 +13,8 @@ class App extends React.Component {
     addTodo(val){
         const todo = {
             text: velo,
-            id: uuid.v4(),
+            id: uuid.v4()
+          }
         const data = [...this.state.data, todo];
         this.setState({data});
 
